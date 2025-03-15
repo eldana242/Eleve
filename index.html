@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elévé 101- Skincare Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
 
+    <header>
+        <h1>Elévé 101</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Where luxury Meets Minimalism</h2>
+        <button onclick="scrollToShop()">Shop Now</button>
+    </section>
+
+    <section id="shop" class="products">
+        <h2>Our Bestsellers</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="img/vita c.jpg" alt="Korean skincare in Addis Ababa">
+                <h3>Vita C dark spot serum</h3>
+                <p>4100ETB</p>
+                <button onclick="addToCart('Vita C dark spot serum', 4100)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="img/boj.jpg" alt="Korean skincare in Addis Ababa">
+                <h3>Beauty of Joseon Deep Double Cleansing Duo</h3>
+                <p>3900</p>
+                <button onclick="addToCart('Beauty of Joseon Deep Double Cleansing Duo', 3900)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="img/boj2.jpg" alt="Korean skincare in Addis Ababa">
+                <h3>Beauty of Joseon Daily Relief Sunscreen</h3>
+                <p>3200ETB</p>
+                <button onclick="addToCart('Beauty of Joseon Daily Relief Sunscreen', 3200)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="img/ifg.jpg" alt="Korean skincare in Addis Ababa">
+                <h3>InnisFree Gentle Retionol Salcylic Acne Serum</h3>
+                <p>5700ETB</p>
+                <button onclick="addToCart('InnisFree Gentle Retionol Salcylic Acne Serum', 5700)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="img/ifgt.jpg" alt="Korean skincare in Addis Ababa">
+                <h3>InnisFree Greentea Amino Acid Cleansing Foam</h3>
+                <p>2500ETB</p>
+                <button onclick="addToCart('InnisFree Greentea Amino Acid Cleansing Foam', 2500)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="img/ctk.jpg" alt="Korean skincare in Addis Ababa">
+                <h3>Centella Travel Kit</h3>
+                <p>4200ETB</p>
+                <button onclick="addToCart('Centella Travel Kit', 4200)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="img/skin1004.jpg" alt="Korean skincare in Addis Ababa">
+                <h3>SKIN1004 Madagascar Centella Hyalu-Cica moisture cream from dry to sensetive skin</h3>
+                <p>3900ETB</p>
+                <button onclick="addToCart('SKIN1004 Madagascar Centella Hyalu-Cica moisture cream from dry to sensetive skin', 3900)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="img/anua.jpg" alt="Korean skincare in Addis Ababa">
+                <h3>Anua Niacinamide 10% + TXA 4% serum</h3>
+                <p>3500ETB</p>
+                <button onclick="addToCart('Anua Niacinamide 10% + TXA 4% serum', 3500)">Add to Cart</button>
+            </div> <div class="product">
+                <img src="img/anua h.jpg" alt="Korean skincare in Addis Ababa">
+                <h3>Anua Heartrelief 77% Soothing Facial Toner</h3>
+                <p>5000ETB</p>
+                <button onclick="addToCart('Anua Heartrelief 77% Soothing Facial Toner', 5000)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide high-quality, luxury skincare products designed for all skin types.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@glowessence.com</p>
+        <p>Instagram: @eleve101</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Glow Essence. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
